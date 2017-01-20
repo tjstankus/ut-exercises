@@ -91,4 +91,94 @@ class RomanNumeralsTest < Minitest::Test
     skip
     assert_equal 'MMM', 3000.to_roman
   end
+
+  def test_I
+    skip
+    assert_equal 'I'.to_i, 1
+  end
+
+  def test_II
+    skip
+    assert_equal 'II'.to_i, 2
+  end
+
+  def test_III
+    skip
+    assert_equal 'III'.to_i, 3
+  end
+
+  def test_IV
+    skip
+    assert_equal 'IV'.to_i, 4
+  end
+
+  def test_V
+    skip
+    assert_equal 'V'.to_i, 5
+  end
+
+  def test_VI
+    skip
+    assert_equal 'VI'.to_i, 6
+  end
+
+  def test_IX
+    skip
+    assert_equal 'IX'.to_i, 9
+  end
+
+  def test_XXVII
+    skip
+    assert_equal 'XXVII'.to_i, 27
+  end
+
+  def test_XLVIII
+    skip
+    assert_equal 'XLVIII'.to_i, 48
+  end
+
+  def test_LIX
+    skip
+    assert_equal 'LIX'.to_i, 59
+  end
+
+  def test_XCIII
+    skip
+    assert_equal 'XCIII'.to_i, 93
+  end
+
+  def test_CXLI
+    skip
+    assert_equal 'CXLI'.to_i, 141
+  end
+
+  def test_CLXIII
+    skip
+    assert_equal 'CLXIII'.to_i, 163
+  end
+
+  def test_CDII
+    skip
+    assert_equal 'CDII'.to_i, 402
+  end
+
+  def test_DLXXV
+    skip
+    assert_equal 'DLXXV'.to_i, 575
+  end
+
+  def test_CMXI
+    skip
+    assert_equal 'CMXI'.to_i, 911
+  end
+
+  def test_MXXIV
+    skip
+    assert_equal 'MXXIV'.to_i, 1024
+  end
+
+  def test_MMM
+    skip
+    assert_equal 'MMM'.to_i, 3000
+  end
 end
